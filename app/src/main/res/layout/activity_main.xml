@@ -14,6 +14,31 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent" android:id="@+id/textView2"/>
+    <TextView
+            android:text="hello my baby"
+            android:layout_width="wrap_content"
+            android:layout_height="87dp"
+            android:id="@+id/test"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            app:layout_constraintHorizontal_bias="0.127" android:layout_marginBottom="448dp"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+    <Button
+            android:text="this is a fucking button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button" app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="216dp"
+            android:layout_marginStart="216dp" android:layout_marginTop="96dp"
+            app:layout_constraintTop_toTopOf="parent" android:onClick="sendMessage"/>
+    <EditText
+            android:layout_width="160dp"
+            android:layout_height="51dp"
+            android:inputType="textPersonName"
+            android:text="pls work"
+            android:ems="10"
+            tools:layout_editor_absoluteY="284dp" android:id="@+id/EditText"
+            tools:layout_editor_absoluteX="241dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
